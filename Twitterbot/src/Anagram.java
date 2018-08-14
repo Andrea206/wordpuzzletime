@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 /**
  * @author James Schlaudraff
- * @version 20180724
+ * @version 20180814
  */
 public class Anagram {
 
@@ -62,7 +62,7 @@ public class Anagram {
 	}
 	
 	public void input(String string) {
-		string.toUpperCase();
+		string = string.toUpperCase();
 		char[] c = string.toCharArray();
 		for(int i = 0; i < string.length(); i++) {
 			letters.add(c[i]);
@@ -78,6 +78,7 @@ public class Anagram {
 	 * @return the shuffled message.
 	 */
 	public String scramble(String string) {
+		letters.clear();
 		string = string.toUpperCase();
 		input(string);
 		return toString();

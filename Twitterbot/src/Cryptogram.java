@@ -90,6 +90,8 @@ public class Cryptogram {
 	 * @return the encrypted message.
 	 */
 	public String scramble(String string) {
+//		puzzle.clear();
+//		letters.clear();
 		scrambleLetters();
 		input(string);
 		return toString();
