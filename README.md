@@ -6,3 +6,5 @@
 * On a timed interval the TweetMain class queries the puzzles stored in the database, then constructs and tweets a custom post that includes a dynamic PHP link to the puzzle answer. 
 * After a puzzle is posted it is marked as such in the database and will not show up in the query list again.
 
+Written by Andrea Moncada and James Schlaudraff @jamesschlaudaff
+
